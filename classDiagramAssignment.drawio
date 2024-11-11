@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15" version="24.8.4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="6243" dy="4251" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4689" dy="3238" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -770,16 +770,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="e7Ab-RQ2rSX-xsPpsTMO-4" value="&lt;i&gt;CurrentPlayerManager&lt;/i&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-2616" y="-450" width="270" height="200" as="geometry" />
+          <mxGeometry x="-2616" y="-450" width="270" height="210" as="geometry" />
         </mxCell>
         <mxCell id="e7Ab-RQ2rSX-xsPpsTMO-6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="e7Ab-RQ2rSX-xsPpsTMO-4">
           <mxGeometry y="26" width="270" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="e7Ab-RQ2rSX-xsPpsTMO-7" value="&lt;i&gt;+ getCurrentPlayer() : Player&lt;/i&gt;&lt;div&gt;&lt;i&gt;+ setCurrentPlayer(currentPlayer : Player) : void&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;+ checkCurrentPlayer(player Player) : boolean&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;+ findPlayer(playerID : String) : Player&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;+ display() : void&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;+ playerIDExists(playerID : String) : boolean&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;+ playerNameExists(playerName : String) : boolean&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;+ removePlayer(player : Player) : void&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;+ displayAllPlayers() : void&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;+ checkExists() : void&lt;/i&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="e7Ab-RQ2rSX-xsPpsTMO-4">
-          <mxGeometry y="34" width="270" height="166" as="geometry" />
+        <mxCell id="e7Ab-RQ2rSX-xsPpsTMO-7" value="&lt;div&gt;&lt;i&gt;+ recordPlayer(player : Player) : void&lt;/i&gt;&lt;/div&gt;&lt;i&gt;+ getCurrentPlayer() : Player&lt;/i&gt;&lt;div&gt;&lt;i&gt;+ setCurrentPlayer(currentPlayer : Player) : void&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;+ checkCurrentPlayer(player Player) : boolean&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;+ findPlayer(playerID : String) : Player&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;+ display() : void&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;+ playerIDExists(playerID : String) : boolean&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;+ playerNameExists(playerName : String) : boolean&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;+ removePlayer(player : Player) : void&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;+ displayAllPlayers() : void&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;+ checkExists() : void&lt;/i&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="e7Ab-RQ2rSX-xsPpsTMO-4">
+          <mxGeometry y="34" width="270" height="176" as="geometry" />
         </mxCell>
         <mxCell id="e7Ab-RQ2rSX-xsPpsTMO-8" value="ConcreteCurrentPlayerManager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-2618" y="-870" width="272" height="250" as="geometry" />
+          <mxGeometry x="-2618" y="-870" width="272" height="260" as="geometry" />
         </mxCell>
         <mxCell id="e7Ab-RQ2rSX-xsPpsTMO-9" value="- currentPlayer : Player&lt;div&gt;- players : ArrayList&amp;lt;Player&amp;gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="e7Ab-RQ2rSX-xsPpsTMO-8">
           <mxGeometry y="26" width="272" height="34" as="geometry" />
@@ -787,8 +787,8 @@
         <mxCell id="e7Ab-RQ2rSX-xsPpsTMO-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="e7Ab-RQ2rSX-xsPpsTMO-8">
           <mxGeometry y="60" width="272" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="e7Ab-RQ2rSX-xsPpsTMO-11" value="&lt;div&gt;+ ConcreteCurrentPlayerManager()&lt;/div&gt;+ getCurrentPlayer() : Player&lt;div&gt;+ setCurrentPlayer(currentPlayer : Player)&lt;/div&gt;&lt;div&gt;+ checkCurrentPlayer( player Player) : boolean&lt;/div&gt;&lt;div&gt;+ findPlayer(playerID player) : Player&lt;/div&gt;&lt;div&gt;+ display() : void&lt;/div&gt;&lt;div&gt;&lt;div&gt;+ playerIDExists(playerID : String) : boolean&lt;/div&gt;&lt;div&gt;+ playerNameExists(playerName : String) : boolean&lt;/div&gt;&lt;div&gt;+ removePlayer(player : Player) : void&lt;/div&gt;&lt;div&gt;+ displayAllPlayers() : void&lt;/div&gt;&lt;div&gt;+ checkExists() : void&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="e7Ab-RQ2rSX-xsPpsTMO-8">
-          <mxGeometry y="68" width="272" height="182" as="geometry" />
+        <mxCell id="e7Ab-RQ2rSX-xsPpsTMO-11" value="&lt;div&gt;+ ConcreteCurrentPlayerManager()&lt;/div&gt;&lt;div&gt;&lt;i&gt;+ recordPlayer(player : Player) : void&lt;/i&gt;&lt;br&gt;&lt;/div&gt;+ getCurrentPlayer() : Player&lt;div&gt;+ setCurrentPlayer(currentPlayer : Player)&lt;/div&gt;&lt;div&gt;+ checkCurrentPlayer( player Player) : boolean&lt;/div&gt;&lt;div&gt;+ findPlayer(playerID player) : Player&lt;/div&gt;&lt;div&gt;+ display() : void&lt;/div&gt;&lt;div&gt;&lt;div&gt;+ playerIDExists(playerID : String) : boolean&lt;/div&gt;&lt;div&gt;+ playerNameExists(playerName : String) : boolean&lt;/div&gt;&lt;div&gt;+ removePlayer(player : Player) : void&lt;/div&gt;&lt;div&gt;+ displayAllPlayers() : void&lt;/div&gt;&lt;div&gt;+ checkExists() : void&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="e7Ab-RQ2rSX-xsPpsTMO-8">
+          <mxGeometry y="68" width="272" height="192" as="geometry" />
         </mxCell>
         <mxCell id="e7Ab-RQ2rSX-xsPpsTMO-15" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeWidth=2;endFill=0;startArrow=block;startFill=0;startSize=15;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="e7Ab-RQ2rSX-xsPpsTMO-4" target="e7Ab-RQ2rSX-xsPpsTMO-11">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -834,7 +834,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="e7Ab-RQ2rSX-xsPpsTMO-22" value="1&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-2376" y="-230" width="30" height="60" as="geometry" />
+          <mxGeometry x="-2395" y="-230" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="e7Ab-RQ2rSX-xsPpsTMO-23" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=2;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="NpN_3oIsCTOHhuz7XpSE-48">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
